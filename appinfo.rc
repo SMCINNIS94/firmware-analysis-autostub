@@ -1,0 +1,8 @@
+on app_laterc
+    export SP_CONFIG_MODEL_PLATFORM_CFG 8368_XU_technbwin_KB068_69_OTA_cfg
+    export SP_CONFIG_GLB_GMNCFG_MODEL_UBOOT_CFG gemini_8368_XU_evb_def_config
+    export SP_CONFIG_GLB_GMNCFG_MODEL_ECOS_CFG sunplus/gemini_disc
+    export SP_CONFIG_GLB_GMNCFG_MODEL_KERNEL_CFG gemini_8368_XU_OTA_defconfig
+    export SP_CONFIG_GLB_GMNCFG_MODEL_SDK_CFG gemini_servo_cfg
+    export SP_CONFIG_GLB_GMNCFG_MODEL_APP_CFG technbwin/technbwin_XU_emu_disc
+

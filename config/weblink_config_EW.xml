@@ -1,0 +1,67 @@
+<?xml version="1.2" encoding="UTF-8"?>
+<!--
+WebLink config
+-->
+<property>
+	<DeviceIdentity>
+		<SystemID value="0000000000000002"/>
+		<EnglishDispalyName value="Pioneer"/>
+		<Manufacturer value="jp.pioneer"/>
+		<Model value="SPH-DA77DAB/XEEU"/>
+		<CountryCodes value="AEALARATAUAZBABEBGCLCYCZDEDKEEEGESFIFRGRHRHUIEINITJOJPKEKWLTLULVMEMKMTMXNLPLPTPYQARORSSASESGSISKTRTWUKZA"/>
+		<SerialNumber value="Headunit:1805110001"/>
+		<OS value="Linux"/>
+		<OSVersion value="4.9"/>
+		<ApplicationName value="WebLink Client App"/>
+		<ApplicationVendor value="jp.pioneer"/>
+		<ApplicationVersion value="3.0.0"/>
+	</DeviceIdentity>
+	<Display>
+		<SourceWidth value="1024"/>    <!--- the width of the source rectangle on the server application, modify it for different product -->
+		<SourceHeight value="600"/>    <!--- the height of the source rectangle on the server application, modify it for different product -->
+		<EncodeWidth value="1024"/>    <!--- the encoded video stream pixel width, modify it for different product -->
+		<EncodeHeight value="600"/>    <!--- the encoded video stream pixel height, modify it for different product -->
+		<ClientWidth value="1024"/>    <!--- the client(vehicle)'s display width in pixels, modify it for different product -->
+		<ClientHeight value="600"/>    <!--- the client(vehicle)'s display height in pixels, modify it for different product -->
+		<Xdpi value="134"/>            <!-- modify it for different product, TODO: should read it from display -->
+		<Ydpi value="153"/>            <!-- modify it for different product, TODO: should read it from display -->
+		<MaxFPS value="30"/>           <!--- 30: default -->
+		<Bitrate value="8388608"/>     <!--- 8388608: default -->
+		<EncodeType value="2"/>       <!--- 2(h264): default and only support h264 now, don't change -->
+		<EncodeProfile value="Baseline_3_1"/>    <!--- Baseline_3_1: default support max to 720x1280@30fps, should modify it for greater resolution -->
+	</Display>
+	<OTA value="false">
+		<Devinfo>
+			<Name value="Xugang_HU_8368xu_0"/>
+			<Model value="Test"/>
+			<Manufacturer value="Xugang"/>
+			<Country value="CN"/>
+			<Serial value="C23xHhn"/>
+		</Devinfo>
+		<Devsys>
+			<OsName value="Linux"/>
+			<OsVersion value="8368u_1.0"/>
+		</Devsys>
+		<CloudProvisioning>
+			<Strategy value="0"/>
+			<RootCA value="/application/config/ota/cert/XugangThingCertificates/Xugang_HU_8368xu_0/AmazonRootCA1.pem"/>
+			<PrivateKey value="/application/config/ota/cert/XugangThingCertificates/Xugang_HU_8368xu_0/adc3c4179bcd1fe6aa16c56188146e1c7ca764e25612081e471e8fe52e90b480-private.pem.key"/>
+			<Certificate value="/application/config/ota/cert/XugangThingCertificates/Xugang_HU_8368xu_0/adc3c4179bcd1fe6aa16c56188146e1c7ca764e25612081e471e8fe52e90b480-certificate.pem.crt"/>
+		</CloudProvisioning>
+		<CloudEndpoint>
+			<Endpoint value="ardagql43fz2q-ats.iot.us-east-1.amazonaws.com"/>
+			<Port value="8883"/>
+			<LinkedEntity value=""/>
+		</CloudEndpoint>
+		<Download>
+			<LocalPath value="/media/flash/userdata/"/>
+			<HttpPort value="443"/>
+		</Download>
+	</OTA>
+	<Wireless value="false">
+		<ClientAP value="true"/>
+		<HostAP value="true"/>
+	</Wireless>
+	<Wired value="true"/>
+	<BluetoothAutoPair value="true"/>
+</property>

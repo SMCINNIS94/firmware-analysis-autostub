@@ -1,0 +1,5 @@
+CustomerVersion="PIO_WS02_1.0.07"
+sdk_commit_id:7e9876e6b
+app_commit_id:0a4acec5e
+framework_commit_id:b12ed08
+twsdk_commit_id:05f9d24

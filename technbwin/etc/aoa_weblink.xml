@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<property>
+        <AoaFeature>
+                <ManuFacturer value="jp.pioneer"/>
+                <Model value="24UL"/>
+                <Description value="WebLink"/>
+                <Version value="1.0"/>
+                <Url value="http://www.abaltatech.com/wl"/>
+                <Serial value="1234567890"/>
+                <Mode value="1"/>
+                <Name value="aoa-weblink%d"/>
+        </AoaFeature>
+</property>

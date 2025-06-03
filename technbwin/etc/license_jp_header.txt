@@ -1,0 +1,27 @@
+ライセンス
+
+本製品にはGNU General Public License Version 2
+(http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+及び/または GNU Lesser General Public License Version 2.1
+ (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+のオープンソースソフトウェアを含んでいます。
+
+詳細なライセンス通知、完全なライセンス文および対応するソースコードは
+当社のOSS Webサイト（*）から入手できます。
+
+* http://www.oss-pioneer.com/car/multimedia/
+
+対応するソースコードの物理媒体でのコピーは、カスタマーサポートセンター
+（https://pioneer.jp/rd/support/）から入手できます。
+モデル番号またはこの製品のOSS Webサイト情報を送信してください。
+この申し出はの有効期間は製品の最終出荷後3年以内となります。
+また、発送費用が発生いたします。
+
+
+ソフトウェアのライセンスに関するお知らせ
+ここでは、本機に使われているオープンソースソフトウェアの利用許諾( ライセンス) について記載しています。
+正確な内容を保持するため、原文( 英語) を記載しています。
+
+==================================================================
+
+

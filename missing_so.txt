@@ -1,0 +1,1 @@
+./technbwin/bin/appman: symbol lookup error: ./technbwin/bin/appman: undefined symbol: _ZN3mcu15AutoTestHandler14phoneConnectedEi
